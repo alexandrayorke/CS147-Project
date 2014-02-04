@@ -1,20 +1,26 @@
 <html>
 
 <head>
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
 	<title> Welcome </title>
-<body>
+	<body>
 
 
-<!-- Need to make a form for login -->
-<h1> Welcome </h1>
-	<p>Please log in. Note, usernames and passwords are case sensitive</p>
-	<form action="LoginServlet" method="post">
-	<p> User Name: <input type = "text" name="username"/>
-	<p> Password: <input type = "text" name="password"/>
-	<input type ="submit"/></p>
-	</form> 
-	<p><a href="createAccount.html">Create New Account</a></p>
+		<!-- Need to make a form for login -->
+		<h1> Welcome </h1>
+		<p>Please log in. Note, usernames and passwords are case sensitive</p>
+		<form action="LoginServlet" method="post">
+			<p> User Name: <input type = "text" name="username"/></p>
+				<p> Password: <input type = "text" name="password"/></p>
+					<input type ="submit"/>
+				</form> 
+				<p><a href="createAccount.html">Create New Account</a></p>
 
-
-</body>
-</html>
+				<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+				<script src="https://code.jquery.com/jquery.js"></script>
+				<!-- Include all compiled plugins (blelow), or include individual files as needed -->
+				<script src="js/bootstrap.min.js"></script>
+			</body>
+			</html>
