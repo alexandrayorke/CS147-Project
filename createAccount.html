@@ -1,11 +1,21 @@
 <html>
-
+<head>
+<title>Create New Account</title>
+</head>	
 
 
 <body>
 
-<!-- Create form to create an account -->
+<h1>Create New Account</h1>
+<p>Please enter proposed user name and password. Your password must be at least 5 characters long, and must contain at least one number and one letter. Note that usernames and passwords are case sensitive.</p>
 
-<p> Create your account </p>
+<!-- Create form to create an account -->
+<form action="CreateAccountServlet" method="post">
+	<p> User Name: <input type = "text" name="username"/>
+	<p> Password: <input type = "text" name="password"/>
+	<input type ="submit"/></p>
+</form> 
+
+
 </body>
 </html>
