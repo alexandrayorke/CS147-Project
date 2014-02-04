@@ -7,11 +7,15 @@
 
 <!-- Need to make a form for login -->
 <h1> Welcome </h1>
-	<p>Please log in. Note, usernames and passwords are case sensitive</p>
-	<form action="index.html" method="post">
-	<p> User Name: <input type = "text" name="username"/>
-	<p> Password: <input type = "text" name="password"/>
-	<input type ="submit"/></p>
+	<p id="loginInstructions">Please log in. Note, usernames and passwords are case sensitive</p>
+	<form id="loginForm" role="form">
+	<div class="form-group">
+	<p> User Name: <input type = "text" id="username"/>
+	</div>
+	<div class="form-group">
+	<p> Password: <input type = "text" id="password"/>
+	</div>
+	<button type ="button" id="loginBtn" class="btn btn-default"/>Login</button>
 	</form> 
 	<p><a href="createAccount.html">Create New Account</a></p>
 
